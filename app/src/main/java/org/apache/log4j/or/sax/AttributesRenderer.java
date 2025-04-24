@@ -1,0 +1,29 @@
+package org.apache.log4j.or.sax;
+
+import org.apache.log4j.or.ObjectRenderer;
+import org.xml.sax.Attributes;
+
+/* loaded from: classes.dex */
+public class AttributesRenderer implements ObjectRenderer {
+    @Override // org.apache.log4j.or.ObjectRenderer
+    public String doRender(Object o) {
+        if (o instanceof Attributes) {
+            StringBuffer sbuf = new StringBuffer();
+            Attributes a = (Attributes) o;
+            int len = a.getLength();
+            boolean first = true;
+            for (int i = 0; i < len; i++) {
+                if (first) {
+                    first = false;
+                } else {
+                    sbuf.append(", ");
+                }
+                sbuf.append(a.getQName(i));
+                sbuf.append('=');
+                sbuf.append(a.getValue(i));
+            }
+            return sbuf.toString();
+        }
+        return o.toString();
+    }
+}

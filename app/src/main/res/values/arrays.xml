@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="gb_lock_type">
+        <item>1</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+    </array>
+    <array name="gb_membank">
+        <item />
+        <item />
+        <item>User0</item>
+        <item>User1</item>
+        <item>User2</item>
+        <item>User3</item>
+        <item>User4</item>
+        <item>User5</item>
+        <item>User6</item>
+        <item>User7</item>
+        <item>User8</item>
+        <item>User9</item>
+        <item>User10</item>
+        <item>User11</item>
+        <item>User12</item>
+        <item>User13</item>
+        <item>User14</item>
+        <item>User15</item>
+    </array>
+    <array name="inventory_type_arrays">
+        <item>A</item>
+        <item>B</item>
+        <item>A|B</item>
+    </array>
+    <array name="lock_data">
+        <item>Access</item>
+        <item>Kill password</item>
+        <item>EPC</item>
+        <item>TID</item>
+        <item>USER</item>
+    </array>
+    <array name="lock_type">
+        <item>Open</item>
+        <item>Lock</item>
+        <item>Permanent lock</item>
+    </array>
+    <array name="permissionNames">
+        <item>@string/permission_storage</item>
+        <item>@string/permission_location</item>
+        <item>@string/permission_camera</item>
+    </array>
+    <array name="power_arrays">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+    </array>
+    <array name="q_value_arrays">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4-Multi_tag</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </array>
+    <array name="session_arrays">
+        <item>S0</item>
+        <item>S1</item>
+        <item>S2-Multi_tag</item>
+        <item>S3</item>
+    </array>
+    <array name="temp_manufacturer">
+        <item>Yuehe tag</item>
+        <item>Yilian tag</item>
+    </array>
+    <array name="work_freq">
+        <item>China1_920_925</item>
+        <item>FCC_902_928</item>
+        <item>EU_865_867</item>
+        <item>ALL_840_960</item>
+    </array>
+</resources>
